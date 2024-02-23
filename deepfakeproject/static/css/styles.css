@@ -1,0 +1,164 @@
+body {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("/static/images/bckgrnd4.jpeg");
+    height: 100%;
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+
+section{
+    padding-top: 60px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #092c48; /* Adjust as needed */
+  }
+  
+  .navbar a {
+    color: #ffff; /* Adjust as needed */
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .navbar a:hover {
+    color: blue;
+  }
+  
+  .navbar-center {
+    flex: 1; /* Fills remaining space */
+    text-align: center;
+  }
+  
+  .navbar-heading {
+    color: #ffff;
+    font-size: 20px; /* Adjust as needed */
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+  }
+  
+
+.deepfake-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px; /* Adjust height as needed */
+    background-color: #23272b; /* Adjust background color if needed */
+    visibility: hidden;
+  }
+  
+  .deepfake-heading {
+    font-family: "Roboto Condensed", sans-serif; /* Choose your preferred font */
+    font-size: 28px; /* Adjust font size as needed */
+    color: #fff; /* Adjust text color if needed */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  .detection-text {
+    font-weight: bold;
+    color: #f26c4f; /* Adjust accent color if needed */
+  }
+  
+.width-300{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+.width-400{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-left: 650px;
+    box-shadow: 0 0px 9px 2px #17316e;
+    background-color: #17a2eb;
+    border-radius: 10px;
+}
+
+.width-500{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+#videos{
+    display: none;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.preprocess {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#preprocessed_images {
+  white-space: nowrap;
+  width: auto;
+  height: 250px;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  box-shadow: 0 0px 9px 2px #ccc;
+}
+
+#faces_images {
+    white-space: nowrap;
+    width: auto;
+    height: 150px;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+.faces {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#heatmap_images{
+    white-space: nowrap;
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-shadow: 0 0px 9px 2px #ccc;
+    margin-bottom: 20px;
+}
+
+.heat-map {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+/* span.spinner-border {
+    display: none;
+} */
